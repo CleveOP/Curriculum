@@ -310,6 +310,23 @@ footer > div{
     transform: scale(2.0);
 }
 
+.btn-ms-criacoes {
+    text-decoration: none;
+    color: var(--accent); /* Cor do texto */
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--accent); /* Borda com a cor do tema */
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    display: inline-block; /* Para que o padding e a borda funcionem bem */
+}
+
+.btn-ms-criacoes:hover {
+    background-color: var(--accent); /* Fundo na cor do tema */
+    color: var(--dark1); /* Texto escuro no hover */
+    transform: scale(1.1); /* Efeito de escala no hover */
+}
+
 .email:hover{
     transform: scale(2.0);
 }
